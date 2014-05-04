@@ -428,6 +428,7 @@ html {
   font-size: 10px;
 }
 body {
+  font-size: 16px;
   font-size: 1.6rem;
   color: #27272e;
   background: #fff7f4;
@@ -451,7 +452,6 @@ a {
   zoom: 1;
   margin-top: 48px;
   margin-bottom: 36px;
-  padding: 0 24px;
 }
 .p-main:before,
 .p-main:after {
@@ -480,10 +480,12 @@ a {
   line-height: 1em;
 }
 .p-title {
+  font-size: 52px;
   font-size: 5.2rem;
   margin-bottom: 10px;
 }
 .p-subtitle {
+  font-size: 16px;
   font-size: 1.6rem;
   font-family: 'Tinos', serif;
   margin-bottom: 52px;
@@ -514,6 +516,7 @@ a {
 }
 .p-copyright {
   text-align: right;
+  font-size: 12px;
   font-size: 1.2rem;
   margin-bottom: 72px;
 }
@@ -535,5 +538,9 @@ a {
   }
   .w-600-small {
     font-weight: normal;
+  }
+  .p-main,
+  .p-copyright {
+    padding: 0 24px;
   }
 }
